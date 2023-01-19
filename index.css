@@ -1,0 +1,143 @@
+.contain {
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    display: flex;
+}
+
+.container {
+    display: flex;
+    width: 1000px;
+    height: 600px;
+    margin-top: 150px;
+}
+
+.sedans {
+    flex: 33.3%;
+    background-color: hsl(31, 77%, 52%);
+}
+
+.suvs {
+    flex: 33.3%;
+    background-color: hsl(184, 100%, 22%);
+}
+
+.luxury {
+    flex: 33.3%;
+    background-color: hsl(179, 100%, 13%);
+}
+
+.sedanicon {
+    padding-left: 50px;
+    padding-top: 40px;
+    scale: 110%;
+}
+
+.suvicon {
+    padding-left: 50px;
+    padding-top: 40px;
+    scale: 110%;
+}
+
+.luxicon {
+    padding-left: 50px;
+    padding-top: 40px;
+    scale: 110%;
+}
+
+.p1-1 {
+    color: white;
+    font-size: 45px;
+    padding-left: 50px;
+}
+
+.p1-2 {
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    padding: 15px 25px 0px 25px;
+}
+
+.p2-1 {
+    color: white;
+    font-size: 45px;
+    padding-left: 50px;
+}
+
+.p2-2 {
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    padding: 15px 25px 0px 25px;
+}
+
+.p3-1 {
+    color: white;
+    font-size: 45px;
+    padding-left: 50px;
+}
+
+.p3-2 {
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    padding: 15px 25px 0px 25px;
+}
+
+.sedanbutton {
+    text-decoration: none;
+    background-color: white;
+    padding: 15px 35px;
+    border-radius: 100px;
+    margin-top: 50px;
+    font-size: 20px;
+    color: hsl(31, 77%, 52%);
+}
+
+.buttonsuv {
+    text-decoration: none;
+    background-color: white;
+    border-radius: 100px;
+    padding: 15px 35px;
+    font-size: 20px;
+    color: hsl(184, 100%, 22%);
+}
+
+.buttonluxury {
+    text-decoration: none;
+    background-color: white;
+    border-radius: 100px;
+    padding: 15px 35px;
+    font-size: 20px;
+    color: hsl(179, 100%, 13%);
+}
+
+.sedanbutton:hover {
+    background-color: transparent;
+    color: white;
+    animation-duration: 0.3s;
+    border: solid 3px white;
+    
+    
+}
+.buttonsuv:hover {
+    background-color: transparent;
+    color: white;
+    animation-duration: 0.3s;
+    border: solid 3px white;
+    
+    
+}
+.buttonluxury:hover {
+    background-color: transparent;
+    color: white;
+    animation-duration: 0.3s;
+    border: solid 3px white;
+    
+    
+}
+@media (max-width:768px){
+    .container{
+        flex-direction: column;
+    }
+}
